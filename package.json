@@ -1,0 +1,20 @@
+{
+  "name": "url-shorten",
+  "version": "0.0.1",
+  "description": "url shorten",
+  "main": "app.ts",
+  "scripts": {
+    "run": "npx tsc ./src/app.ts && node ./src/app",
+    "start": "npx ts-node ./src/app.ts"
+  },
+  "author": "otahsa",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.4"
+  }
+}
